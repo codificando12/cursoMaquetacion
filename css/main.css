@@ -121,7 +121,7 @@ header .profile-link a {
     margin-bottom: 100px;     
 }
 
-.last-blog-container {
+.blogs-news-container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -131,7 +131,7 @@ header .profile-link a {
     padding-bottom: 30px;
 }
 
-main .last-blog {
+main .last-blogs {
     width: 80%;
     margin: 0;
     display: grid;
@@ -139,27 +139,36 @@ main .last-blog {
     place-items: center;    
 }
 
-.last-blog h3 {
+.last-blogs-img {
+    justify-self: end;
+}
+
+.last-blogs h3 {
     font-size: 1.5rem;
     margin: 0;
     margin-bottom: 10px;
 }
 
-.last-blog figure {
+.last-blogs figure {
     margin: 0;
+    align-self: start;
 }
 
-.last-blog img {
-    width: 400px;
+.last-blogs img {
+    width: 500px;
+    justify-self: flex-end;
 }
 
-.last-blog-intro {
+.last-blogs-intro {
     width: 80%;
-    place-self: center;
-    
+    align-self: center;
 }
 
-.last-blog-intro button {
+.last-blogs-intro p {
+    padding-right: 100px;
+}
+
+.last-blogs-intro button {
     width: 100px;
     height: 40px;
     background-color: #c7c7c7;
@@ -170,7 +179,7 @@ main .last-blog {
     margin: 10px;
 }
 
-.blog-posts-container {
+.blogs-posts-container {
     border-top: 1px solid #c7c7c7;
     display: grid;
     width: 65%;
@@ -179,12 +188,12 @@ main .last-blog {
     gap: 20px;
 }
 
-.blog-posts-figure {
+.blogs-posts-figure {
     width: 100%;
     margin: 0;
 }
 
-.blog-posts-img {
+.blogs-posts-img {
     width: 100%;
 }
 
