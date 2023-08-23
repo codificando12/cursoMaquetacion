@@ -188,7 +188,7 @@ footer {
     text-align: center;
 }
 
-footer {
+footer p{
     margin-top: 10px;
     color: #ffffff;
 }
@@ -216,9 +216,46 @@ footer {
     justify-self: center;
 }
 
-.blog-contact {
+.blog-contact-container {
     background-color: #cdd2da;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 40px 0;
+    padding-bottom: 80px;
+    justify-items: center;
+}
+
+
+
+.blog-contact-container div {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: auto;
+}
+
+.icons-container {
+    width: 50%;
+}
+
+.blog-contact-container img {
+    width: 100px;
+}
+
+.blog-contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.blog-contact-info p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.blog-contact-title {
+    text-decoration: underline;
 }
